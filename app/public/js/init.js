@@ -28,6 +28,8 @@ $(document).ready(function() {
                 $("#question10").val()
             ]
         };
+        console.log(newPerson);
+        $('#modal').modal('open');
 
         $.post("/api/friends", newPerson)
             .done(function(data) {
