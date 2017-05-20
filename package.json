@@ -1,0 +1,24 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "a dating app for nerds",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dacanesrock/friend-finder.git"
+  },
+  "author": "robbie g",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dacanesrock/friend-finder/issues"
+  },
+  "homepage": "https://github.com/dacanesrock/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "path": "^0.12.7"
+  }
+}
